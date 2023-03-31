@@ -1,0 +1,17 @@
+{
+	"name": "SQL_serverless",
+	"properties": {
+		"content": {
+			"query": "CREATE LOGIN purviewxd1gl7v FROM EXTERNAL PROVIDER;\nGO\n\nCREATE USER purviewxd1gl7v FOR LOGIN purviewxd1gl7v;\nGO\n\nALTER ROLE db_datareader ADD MEMBER purviewxd1gl7v;\nGO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "lakedb",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

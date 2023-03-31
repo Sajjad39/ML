@@ -1,0 +1,16 @@
+{
+	"name": "DestinationDataset_3rr",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "products"
+		},
+		"sqlPool": {
+			"referenceName": "sqlxd1gl7v",
+			"type": "SqlPoolReference"
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

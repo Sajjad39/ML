@@ -1,0 +1,17 @@
+{
+	"name": "SQL_dedicated",
+	"properties": {
+		"content": {
+			"query": "CREATE USER purviewxd1gl7v FROM EXTERNAL PROVIDER;\nGO\n\nEXEC sp_addrolemember 'db_datareader', purviewxd1gl7v;\nGO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqlxd1gl7v",
+				"poolName": "sqlxd1gl7v"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
