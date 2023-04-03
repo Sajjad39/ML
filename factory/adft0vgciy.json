@@ -1,0 +1,9 @@
+{
+	"name": "adft0vgciy",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5531101-0db5-44ff-9ad6-07cfc0112183",
+		"tenantId": "0208b410-42c2-47c6-9226-637265b029a3"
+	}
+}
